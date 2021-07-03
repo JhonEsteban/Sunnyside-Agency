@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "BarlowSemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../../assets/fonts/barlow/Barlow-SemiBold.ttf);
+}
+@font-face {
+  font-family: "FrauncesBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(../../assets/fonts/fraunces/Fraunces_9pt-Bold.ttf);
+}
+@font-face {
+  font-family: "FrauncesBlack";
+  font-style: normal;
+  src: url(../../assets/fonts/fraunces/Fraunces_9pt-Black.ttf);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
