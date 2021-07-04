@@ -1,0 +1,36 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.hero-image {
+  width: 100%;
+  height: 90vh;
+  background: url(../../assets/images/mobile/image-header.jpg);
+  @include backgroundProps;
+
+  &__title {
+    margin: 0;
+    color: $White;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    padding: 75px 0;
+  }
+
+  &__arrow {
+    margin: auto;
+  }
+
+  @include mediaQuerie(720px) {
+    background: url(../../assets/images/desktop/image-header.jpg);
+    @include backgroundProps;
+
+    &__title {
+      font-size: 4.8rem;
+      letter-spacing: 4px;
+    }
+
+    &__arrow {
+      margin: 50px auto 0;
+    }
+  }
+}
