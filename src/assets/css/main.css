@@ -293,8 +293,7 @@ img {
 }
 
 .testimonials {
-  margin-bottom: 80px;
-  padding: 20px 0;
+  padding: 40px 0 80px;
   text-align: center;
   background-color: #fffbf8;
 }
@@ -337,6 +336,21 @@ img {
 .testimonials .testimonial .personal-info__job {
   font-size: 1.4rem;
   color: #bfbebc;
+}
+
+.projects__layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (min-width: 720px) {
+  .projects__layout {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 920px) {
+  .projects__layout {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

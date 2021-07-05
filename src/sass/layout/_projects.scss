@@ -1,0 +1,14 @@
+.projects {
+  &__layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include mediaQuerie(720px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include mediaQuerie(920px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
