@@ -182,4 +182,114 @@ img {
   }
 }
 
+@media screen and (min-width: 720px) {
+  .services__layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .services__layout .egg-image {
+    grid-column: 2/-1;
+  }
+  .services__layout .service-one {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+}
+.services .service-one,
+.services .service-two {
+  padding: 25px 20px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #fffbf8;
+  color: #23303e;
+}
+@media screen and (min-width: 920px) {
+  .services .service-one,
+.services .service-two {
+    padding: 85px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+.services .service-one__title,
+.services .service-two__title {
+  font-family: FrauncesBlack, Helvetica, sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+@media screen and (min-width: 920px) {
+  .services .service-one__title,
+.services .service-two__title {
+    font-size: 3.2rem;
+  }
+}
+.services .service-one__description,
+.services .service-two__description {
+  color: #5a636c;
+  font-size: 1.55rem;
+  line-height: 25px;
+}
+@media screen and (min-width: 920px) {
+  .services .service-one__description,
+.services .service-two__description {
+    font-size: 1.8rem;
+  }
+}
+.services .service-one__link,
+.services .service-two__link {
+  padding-top: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23303e;
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 920px) {
+  .services .service-one__link,
+.services .service-two__link {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 720px) {
+  .services .service-one .egg-image,
+.services .service-two .egg-image {
+    grid-column: 2/-1;
+  }
+  .services .service-one .service-one,
+.services .service-two .service-one {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+}
+.services .service-three,
+.services .service-four {
+  position: relative;
+}
+.services .service-three .service-content,
+.services .service-four .service-content {
+  position: absolute;
+  padding: 20px;
+  background-color: transparent;
+  text-align: center;
+  bottom: 20px;
+}
+.services .service-three .service-content__title,
+.services .service-four .service-content__title {
+  margin: 10px;
+  font-family: FrauncesBlack, Helvetica, sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.services .service-three {
+  color: #25564b;
+}
+.services .service-four {
+  color: #19536b;
+}
+
 /*# sourceMappingURL=main.css.map */
