@@ -285,6 +285,17 @@ img {
   font-size: 2.8rem;
   font-weight: bold;
 }
+.services .service-three .service-content__description,
+.services .service-four .service-content__description {
+  font-family: BarlowSemiBold, Helvetica, sans-serif;
+}
+@media screen and (min-width: 1220px) {
+  .services .service-three .service-content__description,
+.services .service-four .service-content__description {
+    padding: 20px 120px;
+    line-height: 25px;
+  }
+}
 .services .service-three {
   color: #25564b;
 }
@@ -325,6 +336,7 @@ img {
   padding: 0 20px;
   margin-bottom: 50px;
   color: #7b7b7f;
+  font-family: BarlowSemiBold, Helvetica, sans-serif;
   font-size: 1.55rem;
   line-height: 28px;
 }
@@ -334,6 +346,7 @@ img {
   color: #2c3240;
 }
 .testimonials .testimonial .personal-info__job {
+  font-family: BarlowSemiBold, Helvetica, sans-serif;
   font-size: 1.4rem;
   color: #bfbebc;
 }

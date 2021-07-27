@@ -95,6 +95,15 @@
         font-size: 2.8rem;
         font-weight: bold;
       }
+
+      &__description {
+        font-family: BarlowSemiBold, Helvetica, sans-serif;
+
+        @include mediaQuerie(1220px) {
+          padding: 20px 120px;
+          line-height: 25px;
+        }
+      }
     }
   }
 
